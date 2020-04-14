@@ -33,6 +33,14 @@ body {
     height: 120px;
     box-shadow: 5px 5px 10px #000;
 }
+.image {
+    float: left;
+    height: 300px;
+    width: 271px;
+    margin-right: 20px;
+    margin-top: -20px;
+    
+}
 #head {
     overflow: hidden;
     font-family: Permanent Marker;
@@ -51,6 +59,9 @@ body {
     width: 100%;
     background-color: rgba(156, 140, 140, 0.81);
     padding: 48;
+}
+#content {
+    font-family: monospace;
 }
 #copy {
     text-align: center;

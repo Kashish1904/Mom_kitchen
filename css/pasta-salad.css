@@ -9,7 +9,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 #logo {
     display: inline-block;
     max-width: 20%;
@@ -33,9 +32,6 @@ body {
     height: 120px;
     box-shadow: 5px 5px 10px #000;
 }
-#content {
-    font-family: monospace;
-}
 #head {
     overflow: hidden;
     font-family: Permanent Marker;
@@ -55,16 +51,6 @@ body {
     background-color: rgba(156, 140, 140, 0.81);
     padding: 48;
 }
-.dish {
-    margin-top: 20px;
-}
-.image {
-    float: left;
-    height: 250px;
-    width: 270px;
-    margin-right: 20px;
-}
-}
 #copy {
     text-align: center;
     margin-top: 252px;
@@ -73,12 +59,17 @@ body {
     overflow: hidden;
 }
 footer {
-    text-align: center;
     overflow: hidden;
     height: 300px;
     width: 100%;
     margin-bottom: -200px;
     bottom: 0px;
+}
+#content {
+    font-family: monospace;
+    font-size: 20px;
+    padding: 20 70;
+    background-color: rgba(128, 156, 172, 0.44);
 }
 #breadcrumb {
     margin: 10px 0px;

@@ -67,6 +67,7 @@ footer {
     bottom: 0px;
 }
 #content {
+    font-family: monospace;
     font-size: 20px;
     padding: 20 70;
     background-color: rgba(128, 156, 172, 0.44);

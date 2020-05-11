@@ -1,0 +1,18 @@
+.bg-circle-1.bg-circle {
+  background: url("https://thumbs.dreamstime.com/blog/2016/09/ad-lib-to-fade-give-more-freedom-web-designer-13741-image55977497.jpg") !important;
+}
+
+.bg-light.masthead.text-center.text-white {
+  background: url("https://thumbs.dreamstime.com/blog/2016/09/ad-lib-to-fade-give-more-freedom-web-designer-13741-image55977497.jpg"), #000;
+  background-blend-mode: luminosity;
+  background-size: cover;
+  height: 400px;
+  padding: 0px;
+  margin-top: 67px;
+}
+
+.masthead-content {
+  max-height: 100%;
+  margin-top: 50px;
+}
+

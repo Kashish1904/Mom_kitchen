@@ -51,6 +51,6 @@ app.post("/index.html", function(req, res){
   res.redirect("/");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("Started on 3000");
 });

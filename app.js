@@ -46,6 +46,14 @@ app.get("/sugg.html", function(resq, res){
   res.sendFile(__dirname+"/sugg.html")
 });
 
+app.get("/vegsand.html", function(resq, res){
+  res.sendFile(__dirname+"/vegsand.html")
+});
+
+app.get("/pasta-salad.html", function(resq, res){
+  res.sendFile(__dirname+"/pasta-salad.html")
+});
+
 app.post("/index.html", function(req, res){
   Message.insertMany(req.body);
   res.redirect("/");

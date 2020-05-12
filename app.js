@@ -43,7 +43,7 @@ app.get("/Desserts.html", function(req, res){
 });
 
 app.get("/sugg.html", function(req, res){
-  res.sendFile(__dirname+"/Sugg.html")
+  res.sendFile(__dirname+"/sugg.html")
 });
 
 app.post("/index.html", function(req, res){

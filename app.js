@@ -62,6 +62,10 @@ app.get("/momos", function(resq, res){
   res.sendFile(__dirname+"/momos.html")
 });
 
+app.get("/fruit-salad", function(resq, res){
+  res.sendFile(__dirname+"/fruit-salad.html")
+});
+
 app.post("/home", function(req, res){
   Message.insertMany(req.body);
   res.redirect("/");

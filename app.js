@@ -22,43 +22,47 @@ app.get("/", function(req, res){
   res.sendFile(__dirname+"/index.html")
 });
 
-app.get("/index.html", function(req, res){
+app.get("/home", function(req, res){
   res.sendFile(__dirname+"/index.html")
 });
 
-app.get("/Veggies.html", function(req, res){
+app.get("/Veggies", function(req, res){
   res.sendFile(__dirname+"/Veggies.html")
 });
 
-app.get("/Salads.html", function(req, res){
+app.get("/Salads", function(req, res){
   res.sendFile(__dirname+"/Salads.html")
 });
 
-app.get("/Snacks.html", function(req, res){
+app.get("/Snacks", function(req, res){
   res.sendFile(__dirname+"/Snacks.html")
 });
 
-app.get("/Desserts.html", function(req, res){
+app.get("/Desserts", function(req, res){
   res.sendFile(__dirname+"/Desserts.html")
 });
 
-app.get("/sugg.html", function(resq, res){
+app.get("/sugg", function(resq, res){
   res.sendFile(__dirname+"/sugg.html")
 });
 
-app.get("/vegsand.html", function(resq, res){
+app.get("/vegsand", function(resq, res){
   res.sendFile(__dirname+"/vegsand.html")
 });
 
-app.get("/pasta-salad.html", function(resq, res){
+app.get("/pasta-salad", function(resq, res){
   res.sendFile(__dirname+"/pasta-salad.html")
 });
 
-app.get("/ice-cream.html", function(resq, res){
+app.get("/ice-cream", function(resq, res){
   res.sendFile(__dirname+"/ice-cream.html")
 });
 
-app.post("/index.html", function(req, res){
+app.get("/momos", function(resq, res){
+  res.sendFile(__dirname+"/momos.html")
+});
+
+app.post("/home", function(req, res){
   Message.insertMany(req.body);
   res.redirect("/");
 });

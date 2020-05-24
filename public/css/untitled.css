@@ -1,12 +1,9 @@
-.bg-circle-1.bg-circle {
-  background: url("https://thumbs.dreamstime.com/blog/2016/09/ad-lib-to-fade-give-more-freedom-web-designer-13741-image55977497.jpg") !important;
-}
-
 .bg-light.masthead.text-center.text-white {
-  background: url("https://thumbs.dreamstime.com/blog/2016/09/ad-lib-to-fade-give-more-freedom-web-designer-13741-image55977497.jpg"), #000;
+  background: url("https://greenkitchenstories.com/wp-content/uploads/2017/08/Watermelon_halloumi_salad_3-800x1067.jpg"), #000;
   background-blend-mode: luminosity;
   background-size: cover;
-  height: 400px;
+  background-attachment: fixed;
+  height: 350px;
   padding: 0px;
   margin-top: 67px;
 }

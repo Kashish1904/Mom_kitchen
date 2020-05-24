@@ -6,7 +6,7 @@ body {
 }
 hr {
   margin: 0px;
-}
+} 
 .jumbotron {
   margin-top: 67px;
   padding-top: 3rem;
@@ -19,7 +19,6 @@ hr {
     padding-bottom: 6rem;
   }
 }
-
 .jumbotron p:last-child {
   margin-bottom: 0;
 }

@@ -70,6 +70,10 @@ app.get("/kadhai-paneer", function(resq, res){
   res.sendFile(__dirname+"/kadhai-paneer.html")
 });
 
+app.get("/donut", function(resq, res){
+  res.sendFile(__dirname+"/donut.html")
+});
+
 app.post("/home", function(req, res){
   Message.insertMany(req.body);
   res.redirect("/");

@@ -74,7 +74,7 @@ app.get("/donut", function(resq, res){
   res.sendFile(__dirname+"/donut.html")
 });
 
-app.post("/home", function(req, res){
+app.post("/", function(req, res){
   Message.insertMany(req.body);
   res.redirect("/");
 });
